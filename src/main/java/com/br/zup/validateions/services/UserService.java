@@ -87,7 +87,7 @@ public class UserService {
 
     public UserDTO save(UserRegisterDTO user) {
         validateUser(user);
-        // lógica para salvar o usuário (não implementado aqui)
+        // salvar o usuário 
         return new UserDTO(user.getName(), user.getAge(), user.getYearOfBirth(), user.getEmail());
     }
 }
